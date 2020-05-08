@@ -1,0 +1,5 @@
+TODO: pause playback???? (most likely not possible unless completely redoing how audio is played to be server side)
+TODO: skip current music disc
+
+index button
+    increments the index (where jukebox should start playing)

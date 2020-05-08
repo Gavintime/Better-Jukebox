@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "betterjukebox",
+  "version": "${version}",
+
+  "name": "Better Jukebox",
+  "description": "This mod adds a better jukebox.",
+  "authors": [
+    "Gavintime"
+  ],
+  "contact": {
+    "sources": "https://github.com/Gavintime/Better-Jukebox"
+  },
+
+  "license": "MIT",
+  "icon": "assets/betterjukebox/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.keckle.betterjukebox.MainInit"
+    ],
+    "client": [
+      "net.keckle.betterjukebox.ClientInit"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "libgui": ">=1.8.2+1.15.2",
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {}
+}

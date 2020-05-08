@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "betterjukebox:block/better_jukebox"
+  }
+}
+
